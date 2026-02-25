@@ -28,8 +28,26 @@ It converts plain English queries into SQL statements using OpenAI and executes 
 
 ## 📦 Installation
 
-### 1️⃣ Clone the Repository
+### 1 Clone the Repository
 
 ```bash
 git clone https://github.com/ayushx35/AI-SQL-Generator.git
 cd AI-SQL-Generator
+
+```
+
+### 2 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3 Running the Application
+
+```bash
+streamlit run app.py
+```
+After running, open the URL shown in the terminal (usually):
+```bash
+http://localhost:8501
+```
